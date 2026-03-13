@@ -1,0 +1,1 @@
+"""Swiss subtitle MVP package."""
