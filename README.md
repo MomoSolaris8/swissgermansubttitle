@@ -8,18 +8,26 @@ Swiss Subtitle MVP is a local CLI pipeline for turning Swiss German video audio 
 
 The current focus is offline subtitle generation for Swiss German content. Live translation is out of scope for this MVP.
 
-Chinese notes from local product and technical discussions are in [README.cn.md](README.cn.md).
-
 ## Preview
 
 The repository includes a 120-second preview rendered from a real run:
 
-- Video: [assets/preview/preview_120s_with_subs.mp4](assets/preview/preview_120s_with_subs.mp4)
-- Subtitle file: [assets/preview/zurich_preview_120s.srt](assets/preview/zurich_preview_120s.srt)
+- Dual-subtitle video: [assets/preview/preview_120s_dual_subs.mp4](assets/preview/preview_120s_dual_subs.mp4)
+- Dual-subtitle GIF preview: [assets/preview/preview_120s_dual_preview.gif](assets/preview/preview_120s_dual_preview.gif)
+- Swiss German SRT: [assets/preview/zurich_preview_120s.srt](assets/preview/zurich_preview_120s.srt)
+- Hochdeutsch SRT: [assets/preview/hochdeutsch_preview_120s.srt](assets/preview/hochdeutsch_preview_120s.srt)
+- Combined dual-subtitle SRT: [assets/preview/zurich_hochdeutsch_preview_120s.srt](assets/preview/zurich_hochdeutsch_preview_120s.srt)
 
-<video src="assets/preview/preview_120s_with_subs.mp4" controls width="720"></video>
+[![120-second dual-subtitle preview](assets/preview/preview_120s_dual_preview.gif)](assets/preview/preview_120s_dual_subs.mp4)
 
-If the embedded player does not render on your GitHub view, open the MP4 link above directly.
+Click the GIF to open the full MP4 preview with Swiss German and Hochdeutsch subtitles.
+
+Example subtitle pair:
+
+```text
+Swiss German: Das macht sich so einiges in de junge, dassi guet hie nöd bi.
+Hochdeutsch: Das macht sich so einiges in den jungen Jahren, dass ich hier nicht gut dabei bin.
+```
 
 ## What It Does
 
